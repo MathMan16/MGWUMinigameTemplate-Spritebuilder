@@ -9,5 +9,7 @@
 #import "CCSprite.h"
 
 @interface block : CCSprite
+-(void)doNothing;
+    
 
 @end

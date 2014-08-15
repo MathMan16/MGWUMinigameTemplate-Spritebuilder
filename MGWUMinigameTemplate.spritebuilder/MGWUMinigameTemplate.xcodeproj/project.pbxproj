@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		65400FAB19743FE200EDBBED /* MGWUMinigameInstructions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65400FAA19743FE200EDBBED /* MGWUMinigameInstructions.m */; };
-		95E72B8D197DCFD7004BBCDF /* block.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E72B8C197DCFD7004BBCDF /* block.m */; };
+		95E412AA1981B877008BA6BC /* HarryThamanRock.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E412A91981B877008BA6BC /* HarryThamanRock.m */; };
+		95E412B11981D772008BA6BC /* HarryThamanGem.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E412B01981D772008BA6BC /* HarryThamanGem.m */; };
+		95E72B8D197DCFD7004BBCDF /* HarryThamanblock.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E72B8C197DCFD7004BBCDF /* HarryThamanblock.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -64,8 +66,12 @@
 /* Begin PBXFileReference section */
 		65400FA919743FE200EDBBED /* MGWUMinigameInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGWUMinigameInstructions.h; path = Source/MGWUMinigameInstructions.h; sourceTree = "<group>"; };
 		65400FAA19743FE200EDBBED /* MGWUMinigameInstructions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGWUMinigameInstructions.m; path = Source/MGWUMinigameInstructions.m; sourceTree = "<group>"; };
-		95E72B8B197DCFD7004BBCDF /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = block.h; path = Source/block.h; sourceTree = "<group>"; };
-		95E72B8C197DCFD7004BBCDF /* block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = block.m; path = Source/block.m; sourceTree = "<group>"; };
+		95E412A81981B877008BA6BC /* HarryThamanRock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HarryThamanRock.h; path = Source/HarryThamanRock.h; sourceTree = "<group>"; };
+		95E412A91981B877008BA6BC /* HarryThamanRock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HarryThamanRock.m; path = Source/HarryThamanRock.m; sourceTree = "<group>"; };
+		95E412AF1981D771008BA6BC /* HarryThamanGem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HarryThamanGem.h; path = Source/HarryThamanGem.h; sourceTree = "<group>"; };
+		95E412B01981D772008BA6BC /* HarryThamanGem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HarryThamanGem.m; path = Source/HarryThamanGem.m; sourceTree = "<group>"; };
+		95E72B8B197DCFD7004BBCDF /* HarryThamanblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HarryThamanblock.h; path = Source/HarryThamanblock.h; sourceTree = "<group>"; };
+		95E72B8C197DCFD7004BBCDF /* HarryThamanblock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HarryThamanblock.m; path = Source/HarryThamanblock.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -148,8 +154,12 @@
 				ED5FF05B19495F2F00571E13 /* MyCharacter.m */,
 				ED03BBE51942587100E23822 /* MyMinigame.h */,
 				ED03BBE61942587100E23822 /* MyMinigame.m */,
-				95E72B8B197DCFD7004BBCDF /* block.h */,
-				95E72B8C197DCFD7004BBCDF /* block.m */,
+				95E412A81981B877008BA6BC /* HarryThamanRock.h */,
+				95E412A91981B877008BA6BC /* HarryThamanRock.m */,
+				95E72B8B197DCFD7004BBCDF /* HarryThamanblock.h */,
+				95E72B8C197DCFD7004BBCDF /* HarryThamanblock.m */,
+				95E412AF1981D771008BA6BC /* HarryThamanGem.h */,
+				95E412B01981D772008BA6BC /* HarryThamanGem.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -360,10 +370,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E412B11981D772008BA6BC /* HarryThamanGem.m in Sources */,
+				95E412AA1981B877008BA6BC /* HarryThamanRock.m in Sources */,
 				ED03BBE31942563A00E23822 /* MGWUMinigame.m in Sources */,
 				65400FAB19743FE200EDBBED /* MGWUMinigameInstructions.m in Sources */,
 				ED5C0B7A19479739000453EC /* MGWUCharacter.m in Sources */,
-				95E72B8D197DCFD7004BBCDF /* block.m in Sources */,
+				95E72B8D197DCFD7004BBCDF /* HarryThamanblock.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				ED03BBE71942587100E23822 /* MyMinigame.m in Sources */,
 				ED03BBE41942563A00E23822 /* MGWUTestGame.m in Sources */,
